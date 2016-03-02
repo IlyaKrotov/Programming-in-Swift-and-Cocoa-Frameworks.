@@ -4,8 +4,6 @@ HomeWork №1:
 */
 
 
-// Better use 4 space tab indent
-
 enum BestUniversities: String {
     case MIPT, MSU, MEPHI
 }
@@ -23,7 +21,7 @@ protocol Educable {
 }
 
 struct VerySmartGuy: Educable, CustomStringConvertible {
-    let Name: String // USE let where possible
+    let Name: String
     let birthDate: Int
     var nameOfUniversity: BestUniversities?
     var receiptYear: Int?
